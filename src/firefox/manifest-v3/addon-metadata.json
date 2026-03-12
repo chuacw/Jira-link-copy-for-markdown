@@ -1,0 +1,7 @@
+{
+    "summary": "Copys Jira link so that it's suitable for markdown usage",
+    "categories": [ "other" ],
+    "version": {
+        "license": "cc-all-rights-reserved"
+    }
+}

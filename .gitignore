@@ -1,0 +1,4 @@
+*.cmd
+web-ext-artifacts/
+build-chrome
+build-firefox

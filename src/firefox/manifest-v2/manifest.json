@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "developer": {
+        "name": "CheeWee Chua",
+        "url": "https://chuacw.ath.cx/development/b/chuacw/default.aspx"
+    },
+    "name": "jira-link-modifier",
+    "version": "1.0",
+    "description": "Intercepts clipboard copy for Jira links",
+    "permissions": [
+        "clipboardWrite",
+        "clipboardRead",
+        "contextMenus",
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}

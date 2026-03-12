@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "developer": {
+        "name": "CheeWee Chua",
+        "url": "https://chuacw.ath.cx/development/b/chuacw/default.aspx"
+    },
+    "name": "Jira link copy for markdown",
+    "version": "1.0.8",
+    "description": "Copies Jira link so that it's suitable for markdown usage",
+    "permissions": [
+        "clipboardWrite",
+        "clipboardRead",
+        "contextMenus",
+        "tabs",
+        "activeTab",
+        "scripting"
+    ],
+    "icons": {
+        "16": "jira-link-modifier-16.png",
+        "24": "jira-link-modifier-24.png",
+        "32": "jira-link-modifier-32.png",
+        "64": "jira-link-modifier-64.png",
+        "128": "jira-link-modifier-128.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{42EF7248-33BD-4D3E-8E6D-ACEB30E4A79A}",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
+        }
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}

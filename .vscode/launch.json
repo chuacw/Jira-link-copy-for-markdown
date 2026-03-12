@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Edge",
+      "port": 9222,
+      "request": "attach",
+      "type": "msedge",
+      "webRoot": "${workspaceFolder}/src/chrome/"
+    },
+    {
+      "name": "Attach to Firefox",
+      "type": "firefox",
+      "request": "attach",
+      "port": 6000,
+      "addonPath": "${workspaceFolder}"
+    }
+  ]
+}
